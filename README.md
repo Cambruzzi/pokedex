@@ -10,12 +10,13 @@ Projeto desenvolvido como parte de um desafio técnico, focado na criação de u
 - **Tratamento de Erros:** Feedback visual quando um Pokémon não é encontrado.
 - **Responsividade:** Layout adaptável para desktop e mobile.
 
-## 🛠️ Tecnologias Utilizadas
+## 💡 Desafios e Aprendizados
 
-- **Python 3** e **Django**
-- **JavaScript (Vanilla)** com Arquitetura Modular
-- **HTML5** & **CSS3** (Grid e Flexbox)
----
+Durante o desenvolvimento, enfrentei alguns obstáculos que serviram como ótimo aprendizado técnico:
+
+* **Refatoração e Escalabilidade:** O projeto começou simples, buscando o nome do Pokémon diretamente na URL. Quando avancei para a etapa de listagem, percebi que a arquitetura inicial não suportaria o fluxo de dados (que agora retornava links de detalhes ao invés de dados diretos). Isso exigiu uma refatoração significativa das funções de API para torná-las mais genéricas e reutilizáveis.
+* **Arquitetura (Client-side vs Server-side):** Por ser um projeto Django, houve a dúvida entre usar o sistema de Templates do Django (SSR) ou fazer tudo via JavaScript (CSR). Pela praticidade e para garantir uma experiência de usuário mais fluida e dinâmica (sem recarregamentos constantes), decidi manter a lógica de renderização no **Client-side**.
+* **Layout e CSS:** Retomar o desenvolvimento Frontend exigiu um aprofundamento em CSS Moderno. O maior desafio foi alinhar os componentes visualmente usando **CSS Grid** e **Flexbox** para garantir que os cards de busca individual tivessem a mesma consistência visual da grade de listagem.
 
 ## 📸 Screenshots
 
