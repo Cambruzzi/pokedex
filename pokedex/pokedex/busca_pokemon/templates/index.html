@@ -1,0 +1,44 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokedex</title>
+    <link rel="icon" href="{% static 'img/icon.png' %}">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <script src="{% static 'js/main.js' %}" type="module"></script>
+</head>
+<body>
+
+    <h1>Busca Pokémon</h1>
+
+    <form id="form-busca">
+        <input type="text" id="input-busca" placeholder="Digite o nome ou número da pokédex" required>
+        <button type="submit">Buscar</button>
+    </form>
+
+    <span id="mensagem-erro"></span>
+
+    <div id="container-loading">
+        <div id="pokeball-loading"></div>
+    </div>
+
+    <div style="text-align: center; margin-bottom: 20px;">
+        <button id="btn-voltar-lista">
+            Voltar para Página <span id="span-voltar-pagina"></span>
+        </button>
+    </div>
+
+    <ul id="resultado-pokemon" class="lista-resultado" style="display: none;"></ul>
+
+    <ul id="lista-pokemon-container" class="lista-resultado"></ul>
+
+    <div id="controles-paginacao">
+        <button id="botao-anterior">Anterior</button>
+        <span id="indicador-pagina">Página 1</span>
+        <button id="botao-proximo">Próximo</button>
+    </div>
+
+</body>
+</html>

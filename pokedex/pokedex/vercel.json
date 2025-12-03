@@ -1,0 +1,12 @@
+{
+    "builds": [{
+        "src": "pokedex/wsgi.py",
+        "use": "@vercel/python"
+    }],
+    "routes": [
+        {
+            "src": "/(.*)",
+            "dest": "pokedex/wsgi.py"
+        }
+    ]
+}
