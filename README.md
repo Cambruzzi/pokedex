@@ -27,7 +27,7 @@ Projeto desenvolvido como parte de um desafio técnico, focado na criação de u
 </div>
 <br>
 <div style="display: flex; justify-content: center;">
-  <img src="https://github.com/user-attachments/assets/e796835d-b94a-4f07-8a5b-a22668da870a" alt="Lista de Cards Paginada" width="95%">
+  <img width="1548" height="861" alt="image" src="https://github.com/user-attachments/assets/8f1b3c30-5478-4eff-bf84-0c86ba6f0335" />
 </div>
 
 ---
