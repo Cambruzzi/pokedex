@@ -1,4 +1,4 @@
-# 📕 Pokedex com Django & JavaScript
+# 📕 Pokedex com Django e JavaScript
 
 Projeto desenvolvido como parte de um desafio técnico, focado na criação de uma interface interativa para consumo da [PokeAPI](https://pokeapi.co/). 
 
@@ -12,11 +12,9 @@ Projeto desenvolvido como parte de um desafio técnico, focado na criação de u
 
 ## 🛠️ Tecnologias Utilizadas
 
-- **Python 3** & **Django**
+- **Python 3** e **Django**
 - **JavaScript (Vanilla)** com Arquitetura Modular
 - **HTML5** & **CSS3** (Grid e Flexbox)
-- **Git** & **GitHub**
-
 ---
 
 ## 📸 Screenshots
